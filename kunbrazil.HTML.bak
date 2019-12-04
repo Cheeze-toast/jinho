@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+font-family:Arial, Verdana, sans-serif;
+width:100%;
+height:100%;
+background-image:url("total.PNG");
+background-size:100%;
+background-repeat:no-repeat;
+}
+
+table{
+margin:0px;
+width:100%;
+box-sizing:border-box;
+}
+
+.take{
+text-decoration:underline;
+}
+
+.left{
+color:white;
+width:57%;
+height:100%;
+font-size:20px;
+float:left;
+text-align:center;
+}
+
+.menu{
+Text-align:left;
+padding:1%;
+Position:absolute;
+Top:2%;
+Left:2%;
+margin:1%;
+float:left;
+}
+
+
+.sitemap{
+Text-align:center;
+padding:1%;
+margin:1%;
+Position:absolute;
+Top:2%;
+right:2%;
+float:left;
+}
+
+
+
+
+
+</style>
+</head>
+
+<body>
+	
+<div class="menu">
+<a href="menu.html">
+<img src="menuicon3.png" width="40" height="40"></a>
+</div>
+
+<div class="sitemap">
+<a href="worldmap.HTML">
+<img src="airmap.PNG" width="55" height="55"></a>
+</div>
+	
+
+<br><br><br><br>
+<div class="left">
+<img src="braz.png" width="30%" height="30%">
+<p style="text-align:center; font-size:40px; font-style:bold;"></p>
+<p style="font-size:20px;"><b>
+	
+<h1 style="color:black; font-size:60px;">Farofa</h1>	
+	
+파로 파 (Farofa)는 브라질에서만 볼 수있는 독특한 맛과 의미로,<br> 
+<br>
+실제로 시도하지 않고는 이해하기 어렵습니다.<br>
+<br>
+그것은 기본적으로 프라이드 베이컨의 작은 조각과<br>
+혼합 튀김 타피오카 밀가루와 쌀과 콩과 함께 제공됩니다.<br>
+<br>
+그것이 별로 맛있게 들리지는 않지만 콩과 밥을 잘 먹는 방법,<br>
+주스를 흡수하는 방법, 아주 부드러운 음식에<br>
+여분의 질감을 추가하는 방법이 놀랍습니다.<br>
+
+
+
+
+
+
+
+</b></p>
+
+</div>
+</body>
+</html>

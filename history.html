@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body{
+  font-family:helvetica;
+  }
+nav {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left:40;
+  top:80;
+
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#main-menu > li {
+  position: relative;
+}
+
+#main-menu > li > a {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.95);
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  display: block;
+  padding: 14px 36px;
+
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+#sub-menu {
+  position: absolute;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in;
+}
+
+#sub-menu > li {
+  padding: 16px 28px;
+  border-bottom: 1px solid rgba(0,0,0,0.);
+}
+
+#sub-menu > li >  a {
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+}
+
+#main-menu > li:hover #sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+#sub-menu > li >  a:hover {
+ text-decoration: underline;
+}
+
+body{
+text-align:center;
+background-color:#bdceb9
+
+
+}
+
+a {
+font-size:24px;
+}
+
+#wide{
+overflow:auto;
+}
+
+.menu{
+text-align:center;
+padding:1.5%;
+width:10%;
+height:15%;
+float:left;
+margin:1%;
+box-sizing:border-box;
+}
+
+.logo{
+text-align:center;
+width:74%;
+height:15%;
+margin:1%;
+padding:1.5%;
+float:left;
+
+box-sizing:border-box;
+}
+
+.sitemap
+{
+text-align:right;
+padding:1.5%;
+width:10%;
+height:15%;
+margin:1%;
+float:left;
+box-sizing:border-box;
+}
+
+.what {
+position:absolute;
+top:10%;
+left:10%;
+}
+
+hist {
+position:absolute;
+top:15%;
+left:2%;
+}
+
+</style>
+</head>
+
+
+<body>
+<div id="wide">
+ <div class="menu">
+ <nav role="navigation">
+  <ul id="main-menu">
+    <li><a href="#"><img src="menuicon3.png" width="75" height="75"></a>
+      <ul id="sub-menu">
+        <li><a href="main1.html" arialabel="subemnu"><b>Team</b></a></li>
+        <li><a href="main.html" arialabel="subemnu"><b>Personal</b></a></li>
+        <li><a href="misfirst.html" arialabel="subemnu"><b>MIS</b></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+  <div class="logo">
+    <a href="main1.html" ><b><img src="logoicon.png" width="65" height="65"></b></a>
+  </div>
+  <div class="sitemap">
+    <a href="sitemap.html"><img src="sitemapicon4.png" width="65" height="65"></a>
+  </div>
+</div>
+
+<br><br>
+<h1>History of MIS</h1>
+<img src="history.jpeg" alt="mis" width="600" height="300">
+
+<br><br><br>
+<p>케네스(Kenneth)와 제인 로돈(Jane Laudon)은 컴퓨팅 기술 개발에서 </p>
+<p>1) 메인프레임과 미니컴퓨터 컴퓨팅, </p>
+<p>2) 개인용 컴퓨터, </p>
+<p>3) 클라이언트/서버 네트워크, </p>
+<p>4) 엔터프라이즈 컴퓨팅, </p>
+<p>5) 클라우드 컴퓨팅</p>
+<p>의 5가지 단계에 해당하는 경영 정보 시스템 진화의 5가지 시대를 파악하고 있다.</p>
+<br><br>
+<p>첫 번째 시대(메인프레임과 미니콤퍼터)는 IBM과 그들의 메인프레임 컴퓨터에 의해 지배되었다. </p>
+<p>이 컴퓨터들은 공간의 대부분을 차지하고 그것을 실행하기 위해 많은 사람들을 필요로 하곤 했다. </p>
+<p>IBM은 하드웨어와 소프트웨어를 공급했는데, </p>
+<p>기술이 발전함에 따라 컴퓨터들은 더 큰 용량을 처리할 수 있었고 따라서 비용을 줄일 수 있었다. </p>
+<p>더 작고, 더 저렴한 미니컴퓨터를 통해 대기업들은 사내에서 자체 컴퓨팅 센터를 운영할 수 있었다.</p>
+<br><br>
+<p>마이크로프로세서가 메인프레임, 미니컴퓨터 등과 경쟁하기 시작하고, </p>
+<p>컴퓨팅 파워를 대형 데이터 센터에서 소규모 사무실로 분산시키는 과정을 가속화하면서 1965년에 제2의 시대(개인용 컴퓨터)가 시작되었다.</p>
+<p> 1970년대 후반에 미니컴퓨터 기술은 개인용 컴퓨터에 자리를 내주고 </p>
+<p>상대적으로 저렴한 컴퓨터는 대량 시장 상품이 되어 10년 전에는 수만 달러의 비용이 들었을 컴퓨팅 파워를 직원들에게 제공할 수 있게 되었다. </p>
+<p>이러한 컴퓨터의 확산은 네트워크와 인터넷의 대중화를 위한 준비된 시장을 만들었다.</p>
+<br><br>
+<p>기술적 복잡성이 증가하고 비용이 감소함에 따라 기업 내에서 정보를 공유할 필요성도 증가하여 </p>
+<p>공통 네트워크상의 컴퓨터가 서버의 정보를 공유하는 제3의 시대(클라이언트/서버)가 되었다. </p>
+<p>이것은 수천, 심지어 수백만의 사람들이 동시에 데이터에 접근할 수 있게 해준다. </p>
+<p>고속 네트워크에 의해 가능하게 된 제4의 시대(기업)는 </p>
+<p>기업의 모든 측면을 하나로 묶어 전체 경영 구조를 포괄하는 풍부한 정보 접근을 제공하였다.모든 컴퓨터가 활용된다.</p>
+<br><br>
+<p>제5세대(클라우드 컴퓨팅)는 최신형이며, 하드웨어의 구성, 위치 또는 특성과 무관하게 애플리케이션은 물론 </p>
+<p>데이터 스토리지를 제공하는 네트워킹 기술을 채용하고 있다. </p>
+<p>이는 고속 휴대폰과 와이파이 네트워크와 함께 관리자들이 노트북, 태블릿 컴퓨터, 스마트폰으로 원격으로 MIS에 접근할 수 있는 새로운 수준의 이동성을 가져왔다.</p>
+
+
+
+<br><br><br>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+font-family:Arial, Verdana, sans-serif;
+width:100%;
+height:100%;
+background-image:url("croatia.PNG");
+background-size:100%;
+background-repeat:no-repeat;
+}
+
+table{
+margin:0px;
+width:100%;
+box-sizing:border-box;
+}
+
+.take{
+text-decoration:underline;
+}
+
+.left{
+width:57%;
+height:100%;
+font-size:20px;
+float:left;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+	
+<div class="menu">
+<a href="menu.html">
+<img src="menuicon3.png" width="40" height="40"></a>
+</div>
+
+<div class="sitemap">
+<a href="worldmap.HTML">
+<img src="airmap.PNG" width="55" height="55"></a>
+</div>
+	
+	
+<br><br>
+<div class="left">
+<br><br>
+<img src="croatiaflag.gif" width="30%" height="30%"
+<p style="text-align:center; font-size:50px; font-style:bold;"><b></b></p>
+<br>
+<b><p style="font-size:20px;">
+작지만 아름다운 풍경과 고요함을 가진 나라, 크로아티아입니다! 
+<br>
+<br>보이는 도시 '프리모슈덴'은 바다를 메워 섬과 육지를 연결한, 
+<br>전체 인구 2800여 명의 작은 어촌 마을입니다.
+<br>
+<br>그래서인지 섬 아닌 섬의 독득한 도시 분위기를 갖고 있습니다. 
+<br>실제로 프로메슈덴, '다리를 놓다'라는 의미를 지닌 단어에서 유래된 지명이죠. 
+<br>
+<br>자그마한 도시를 여유롭게 산책하고, 아름다운 바다를 편하게 감상하다보면 
+<br>어느새 근심, 걱정이 사라질것입니다. </p></b>
+
+</div>
+</body>
+</html>
