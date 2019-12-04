@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+
+body{
+font-family: Arial, Sans-Serif;
+Font-style:bold italic;
+background-image:url("cosmos.jpg");
+background-size:100%;
+Background-repeat:repeat-y;
+}
+
+#sub{
+list-style:none;
+margin:0;
+padding:0;
+Position:absolute;
+Left:35%;
+Top:16%;
+}
+
+#sub li {
+height: 2em;
+margin-top:100px;
+}
+
+#sub li a {
+padding:0;
+}
+
+#sub li:hover{
+height:auto;
+}
+
+#sub li:hover a {
+display:inline-block;
+}
+
+#sub ul {
+display: none;
+list-style: none;
+margin-left:100px;
+padding: 0;
+Color:#ffc000;
+}
+
+
+#sub li:hover ul {
+display:block;
+clear:left;
+position:normal;
+Color:#FFC000;
+}
+
+#sub li:hover a {
+Color:#FFC000;
+}
+
+#sub li:hover ul li a {/*하위메뉴 설정*/
+font-size:30px;
+color:#FFC000;
+}
+
+#sub ul li {
+margin: 0;
+padding:0px;
+width:500px;
+height: auto;
+margin-top:10px;
+clear:left;
+}
+
+#sub ul li a:hover{
+padding:3px 5px 0px;
+}
+
+#sub ul li a:active{
+padding:3px 5px 0px;
+}
+
+#sub li:hover ul li a:hover {
+color:white;
+}
+
+</style>
+</head>
+
+<body>
+<ul id="sub">
+ <li><a href="main1.html"><img src="teampageicon.png" height="100"></a>
+  <ul>
+   <li><b><a href="teampagefirstmainpage.html">Introduction of Team"L.I.T"</a></b></li>
+  </ul>
+ </li>
+ <li> <a href ="main.html"><img src="personalpageicon.png" height="100"></a>
+  <ul>
+   <li><b><a href ="personalpagefirstpage.html">K.J.W</a></b></li>
+   <li> <b><a href ="kunwoostart.html">K.K.W</a></b> </li>
+   <li> <b><a href ="home.html">K.S.Y</a></b> </li>
+   <li> <b><a href ="personal.html">P.J.H</a></b> </li>
+   <li> <b><a href ="uksoccer.html">S.J.H</a></b> </li>
+  </ul>
+ </li>
+ <li> <a href ="misfirst.html"><img src="mispageicon1.png" height="100"></a>
+  <ul>
+   <li> <b><a href ="IT.html">Introduction of IT</a></b> </li>
+   <li> <b><a href ="history.html">History of MIS</a></b> </li>
+  </ul>
+ </li>
+</ul>
+</body>
+</html>

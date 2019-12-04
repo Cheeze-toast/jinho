@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+font-family:Arial, Verdana, sans-serif;
+width:100%;
+height:100%;
+background-image:url("usa.PNG");
+background-size:100%;
+background-repeat:no-repeat;
+}
+
+table{
+margin:0px;
+width:100%;
+box-sizing:border-box;
+}
+
+.take{
+text-decoration:underline;
+}
+
+.left{
+width:57%;
+height:100%;
+font-size:20px;
+float:left;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+<br><br><br><br>
+<div class="left">
+<img src="usaflag.png" width="30%" height="30%">
+<p style="text-align:center; font-size:40px; font-style:bold;"></p>
+<p style="font-size:20px;"><b>
+거대하지만 자유 분방한 나라 미국입니다!<br>
+<br>
+밖 보이는 곳은 '스페이스 니들'이라는 시애틀의 랜드마크 <br>
+전망대로 시애틀의 전경을 감상할 수 있습니다.<br>
+<br>
+또 승강기를 타고 올라가면 지상에서 150m 되는 곳에<br>  
+회전식 레스토랑이 있어 저녁에는 야경을 감상하며 식사하실 수 있죠.<br>
+<br>
+이곳에서 야경을 보며 잠들 수 없는 시애틀의 밤을 경험해보십쇼.<br>
+
+
+
+</b></p>
+
+</div>
+</body>
+</html>

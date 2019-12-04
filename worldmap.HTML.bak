@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+font-family:Arial, Verdana, sans-serif;
+width:100%;
+height:100%;
+background-image:url("worldmap.png");
+background-size:100%;
+background-repeat:no-repeat;
+}
+
+table{
+margin:0px;
+width:100%;
+box-sizing:border-box;
+}
+
+.take{
+text-decoration:underline;
+}
+
+.left{
+width:57%;
+height:100%;
+font-size:20px;
+float:left;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+<h1 style="text-align:center; font-size:30px; font-style:bold;">P.J.H</h1>	
+
+<div class="left">
+<img src="" width="30%" height="30%">
+<p style="text-align:center; font-size:40px; font-style:bold;"></p>
+<p style="font-size:20px;"><b>
+</b></p>
+
+</div>
+</body>
+</html>

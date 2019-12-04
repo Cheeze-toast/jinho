@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+font-family:Arial, Verdana, sans-serif;
+width:100%;
+height:100%;
+background-image:url("new.PNG");
+background-size:100%;
+background-repeat:no-repeat;
+}
+
+table{
+margin:0px;
+width:100%;
+box-sizing:border-box;
+}
+
+.take{
+text-decoration:underline;
+}
+
+.left{
+width:57%;
+height:100%;
+font-size:20px;
+float:left;
+text-align:center;
+}
+
+.menu{
+Text-align:left;
+padding:1%;
+Position:absolute;
+Top:2%;
+Left:2%;
+margin:1%;
+float:left;
+}
+
+
+.sitemap{
+Text-align:center;
+padding:1%;
+margin:1%;
+Position:absolute;
+Top:2%;
+right:2%;
+float:left;
+}
+
+</style>
+</head>
+
+<body>
+	
+<div class="menu">
+<a href="menu.html">
+<img src="menuicon3.png" width="40" height="40"></a>
+</div>
+
+<div class="sitemap">
+<a href="worldmap.HTML">
+<img src="airmap.PNG" width="55" height="55"></a>
+</div>
+	
+
+<br><br><br><br>
+<div class="left">
+<img src="newflag.png" width="30%" height="30%">
+<p style="text-align:center; font-size:40px; font-style:bold;"></p>
+<p style="font-size:20px;"><b>
+'파라다이스’라는 단어가 꼭 들어맞는 천지 창조<br>              
+그대로의 풍광을 가진 뉴질랜드입니다!<br>
+<br>
+'밀포드 사운드(Milford Sound)'는 남반구의 피오르 중<br>
+가장 아름다운 지역으로 알려져 있습니다.<br> 
+유럽의 노르웨이에나 있을법한 피오르의<br> 
+경이로움을 간직하고 있죠.<br>
+<br>
+누구나 이곳에 닿는 순간, 눈앞으로 펼쳐지는<br>
+원시의 자연풍광에 탄성을 지르고 말 것입니다.<br>
+<br>
+험준한 바위산 골짜기를 바라보고 있노라면<br>
+배를 타고 있다는 사실도 잊고 깊은 산 속에 들어선 것 같은<br>
+느낌을 받을 수 있습니다.<br>
+
+
+
+</b></p>
+
+</div>
+</body>
+</html>

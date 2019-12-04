@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+font-family:Arial, Verdana, sans-serif;
+width:100%;
+height:100%;
+background-image:url("back.PNG");
+background-size:100%;
+background-repeat:no-repeat;
+}
+table{
+margin:0px;
+width:100%;
+box-sizing:border-box;
+}
+.take{
+text-decoration:underline;
+}
+.left{
+width:57%;
+height:100%;
+font-size:20px;
+float:left;
+text-align:left;
+}
+</style>
+</head>
+
+<body>
+<div class="left">
+<p style="text-align:center; font-size:40px; font-style:bold;"><b>P.J.H</b></p>
+<hr>
+<p style="font-size:40px;">WELCOME!</p>
+<p>제 페이지에 오신 것을 환영합니다. 
+<br>이곳에서 여러분들은 세계 유명 장소들을 하나하나 방문할 것입니다.
+<br>원하는 장소를 선택하여 그곳의 자연과 풍경을 천천히 즐기시길 바랍니다.</p>
+
+<p>지금 출발합니다!</p>
+
+<h2>Welcom Aboard!</h2>
+
+<p><a href=" " class="take">Take off!</a></p>
+</div>
+</body>
+</html>
